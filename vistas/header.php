@@ -214,24 +214,25 @@ if (strlen(session_id()) < 1)
 
 
                 <?php
-                if ($_SESSION['acceso'] == 1) {
-                    echo '  <li class="treeview">
-          <a href="#">
-            <i class="fa fa-users"></i> <span>Acceso</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="usuario.php"><i class="fa fa-circle-o"></i> Profesores</a></li>
-            <li><a href="permiso.php"><i class="fa fa-circle-o"></i> Permisos</a></li>
-          </ul>
-        </li>';
-                }
+                    if ($_SESSION['acceso'] == 1) {
+                      echo '  <li class="treeview">
+                      <a href="#">
+                        <i class="fa fa-users"></i> <span>Acceso</span>
+                        <span class="pull-right-container">
+                          <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                      </a>
+                          <ul class="treeview-menu">
+                            <li><a href="usuario.php"><i class="fa fa-circle-o"></i> Profesores</a></li>
+                            <li><a href="permiso.php"><i class="fa fa-circle-o"></i> Permisos</a></li>
+                          </ul>
+                        </li>';
+                    }
                 ?>
-                <li><a href="#"><i class="fa fa-question-circle"></i> <span>Ayuda</span><small
+                <li><a href="help.php"><i class="fa fa-question-circle"></i> <span>Ayuda</span><small
                                 class="label pull-right bg-yellow">PDF</small></a></li>
-                <li><a href="https://www.compartiendocodigos.com/" target="_blanck"><i
+
+                <li><a href="about.php" target="_blanck"><i
                                 class="fa  fa-exclamation-circle"></i> <span>Acerca de</span><small
                                 class="label pull-right bg-yellow">ComCod</small></a></li>
 

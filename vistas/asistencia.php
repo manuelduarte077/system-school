@@ -45,22 +45,22 @@ if (!isset($_SESSION['nombre'])) {
                                 <table id="tbllistado"
                                        class="table table-striped table-bordered table-condensed table-hover">
                                     <thead>
-                                    <th>Opciones</th>
-                                    <th>Imagen</th>
-                                    <th>Nombre</th>
-                                    <th>Apellidos</th>
-                                    <th>Telefono</th>
-                                    <th>Asistencia</th>
+                                        <th>Opciones</th>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Apellidos</th>
+                                        <th>Telefono</th>
+                                        <th>Asistencia</th>
                                     </thead>
                                     <tbody>
                                     </tbody>
                                     <tfoot>
-                                    <th>Opciones</th>
-                                    <th>Imagen</th>
-                                    <th>Nombre</th>
-                                    <th>Apellidos</th>
-                                    <th>Telefono</th>
-                                    <th>Asistencia</th>
+                                        <th>Opciones</th>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Apellidos</th>
+                                        <th>Telefono</th>
+                                        <th>Asistencia</th>
                                     </tfoot>
                                 </table>
                             </div>
